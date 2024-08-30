@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-export default function AddArrayValues()
+export default function AddArrayValues(props)
 {
 
-    const [numbers, setNumbers] = useState([1, 2, 3]);
+    const [numbers, setNumbers] = useState(props.arrValues);
 
     const [newNumber, setNewNumber] = useState('');
 
