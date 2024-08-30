@@ -10,13 +10,14 @@ import React from 'react'
 
 export default function App()
 {
+  const arrValues = [1, 2, 3];
 
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />} />
         <Route path="addnumbers" element={<AddNumbers />} />
-        <Route path="addarrayvalues" element={<AddArrayValues />} />
+        <Route path="addarrayvalues" element={<AddArrayValues arrValues={arrValues} />} />
 
       </Routes>
     </BrowserRouter>
