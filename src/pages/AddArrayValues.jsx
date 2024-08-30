@@ -34,7 +34,7 @@ export default function AddArrayValues(props)
     return (
         <div>
             <h1>Add Array Values</h1>
-            <p>Numbers: {numbers.join(', ')}</p> 
+            <p>Numbers: {numbers.join(', ')}</p>
 
             <input id="iArrNum"
                 type="number"
